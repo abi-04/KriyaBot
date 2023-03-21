@@ -8,4 +8,6 @@ With Keras and Tensorflow at its backend and Python Flask for web app support, t
 
 The chatbot predicts the answer using the pre-trained model and gives an appropriate response.
 
-To host the cahtbot online, we have used ngrok library supported by Python.
+The create_pkl notebook is used to create classes and words pickle files for the model which is required for training purposes.
+
+To host the chatbot online, we have used ngrok library supported by Python.
