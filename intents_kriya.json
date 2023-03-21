@@ -1,0 +1,183 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through the KriyaDocs", "I can help you understand the KriyaDocs"],
+         "context": [""]
+        },
+        {"tag": "article type",
+         "patterns": ["How to insert article type?","What is the procedure for inserting an article type?","Can you explain how to add an article type?","What steps do I need to follow to insert an article type?","Could you walk me through the process of inserting an article type?","Is there a tutorial or guide available for inserting an article type?","What are the requirements for inserting an article type?","Are there any specific settings I need to adjust when inserting an article type?","How do I specify the type of article I want to insert?","Is it possible to customize the article type insertion process?","What is the purpose of the article type field and how do I use it when inserting an article?" ],
+         "responses": ["under article title you could see blue box with text add article type, select and add article type"],
+         "context": [""]
+        },
+        {"tag": "section head",
+         "patterns": ["How to insert section head?","What is the process for inserting a section head?","Can you explain how to add a section head to a document?","What are the steps for inserting a section head in a document?","Could you demonstrate how to insert a section head in a document?","Is there a tutorial or guide available for inserting a section head in a document?","What options do I have when inserting a section head?","Are there any requirements I need to meet before inserting a section head?","How do I format a section head when inserting it into a document?","Can I customize the appearance of a section head when inserting it?","What is the purpose of a section head and how do I use it when inserting one into a document?" ],
+         "responses": ["under article title you could see blue box with text add section head, select and add section head"],
+         "context": [""]
+        },
+        {"tag": "corresponding author",
+         "patterns": ["How to add corresponding author?","What is the process for adding a corresponding author to a paper?","Can you explain how to designate a corresponding author for a manuscript?","What are the steps for adding a corresponding author to a research article?","Could you demonstrate how to add a corresponding author to a paper?","Is there a tutorial or guide available for adding a corresponding author to a manuscript?","What information do I need to provide when designating a corresponding author?","Are there any specific requirements I need to meet when adding a corresponding author to a paper?","How do I indicate which author is the corresponding author when submitting a manuscript?","Can I change the corresponding author after submission of the manuscript?","What is the role of the corresponding author and why is it important to designate one when submitting a manuscript?" ],
+         "responses": ["Select author name and click the check box with name corresponding and add required details"],
+         "context": [""]
+        },
+        {"tag": "Affiliation",
+         "patterns": ["How to add affiliation?", "What is the process for adding an affiliation to a manuscript or academic paper?","Can you explain how to include an affiliation in a scholarly publication?","What are the steps for adding an affiliation to a research article or manuscript?","Could you demonstrate how to add an affiliation to a document?","Is there a tutorial or guide available for adding an affiliation to a publication?","What information do I need to provide when including an affiliation in a manuscript?","Are there any specific requirements I need to meet when adding an affiliation to a paper?","How do I format an affiliation when adding it to a document?","Can I change or update the affiliation after submission of the manuscript?","What is the purpose of including affiliations in a publication and why is it important to do so?"],
+         "responses": ["Select author name, in end of the box near affiliation select add new and enter required details"],
+         "context": [""]
+        },
+        {"tag": "Undo",
+         "patterns": ["How to undo my change?", "Can you explain how to undo a change I made to the document?", "What is the process for reversing an edit I made to the document?","What are the steps for undoing a change in the document?","Could you demonstrate how to undo a recent change I made to the document?","Is there a shortcut key or menu option for undoing changes in the document?","How many changes can I undo in the document at once?","Are there any limitations or restrictions when undoing changes in the document?","How do I make sure I am undoing the correct change in the document?","Can I redo a change I previously undid in the document?","What should I do if I accidentally undo a change that I did not intend to undo in the document?" ],
+         "responses": ["There is left curved arrow in tool bar, when you hover on it you could see the undo text, if clicked your changes will be reverted"],
+         "context": [""]
+        },
+        {"tag": "Redo",
+         "patterns": ["How to redo my change?", "What is the process for redoing a change in the document?","Can you explain how to reverse an undo and redo my previous change?","How do I restore a change that I previously reverted in the document?","Could you demonstrate how to redo a change in the document?","Is there a shortcut key or menu option for redoing changes in the document?","How far back can I redo changes in the document?","Are there any limitations or restrictions when redoing changes in the document?","How do I ensure that I am redoing the correct change in the document?","Can I undo a change that I previously redid in the document?","What should I do if I accidentally redo a change that I did not intend to redo in the document?"],
+         "responses": ["There is right curved arrow in tool bar, when you hover on it you could see the redo text, if clicked your actions will be reworked"],
+         "context": [""]
+        },
+        {"tag": "cut",
+         "patterns": ["How to cut a content?", "What is the process for cutting content from a document?","Can you explain how to remove a section of content from the document using the cut function?","What are the steps for cutting a portion of text or other content from the document?","Could you demonstrate how to cut content from the document?","Is there a keyboard shortcut or menu option for cutting content from the document?","What happens to the content that is cut from the document?","Are there any limitations or restrictions when cutting content from the document?","How do I make sure I am cutting the correct content from the document?","Can I undo a cut operation and restore the content that was cut from the document?","What should I do if I accidentally cut content that I did not intend to remove from the document?"],
+         "responses": ["In tool bar you could see a scissor symbol,when you hover on it you could see the cut text, click the scissor symbol to cut the content"],
+         "context": [""]
+        },
+        {"tag": "copy",
+         "patterns": ["How to copy a content?", "What is the process for copying content from a document?","Can you explain how to duplicate a section of content in the document using the copy function?","What are the steps for copying a portion of text or other content from the document?","Could you demonstrate how to copy content from the document?","Is there a keyboard shortcut or menu option for copying content from the document?","Where is the copied content stored?","Are there any limitations or restrictions when copying content from the document?","How do I make sure I am copying the correct content from the document?","Can I paste the copied content into another document or application?","What should I do if I accidentally copy content that I did not intend to duplicate from the document?"],
+         "responses": ["In tool bar you could see scissor symbol when you click the tool you could see copy option, select the option to copy the text"],
+         "context": [""]
+        },
+        {"tag": "Bold",
+         "patterns": ["How to apply bold?", "What is the process for applying bold to text in the document?","Can you explain how to make text bold using the formatting tools?","What are the steps for applying bold to a portion of text in the document?","Could you demonstrate how to apply bold to text in the document?","Is there a keyboard shortcut or menu option for making text bold in the document?","What is the difference between bold and other font styles like italics or underline?","Are there any limitations or restrictions when applying bold to text in the document?","How do I make sure I am applying bold to the correct portion of text in the document?","Can I remove bold formatting from text that has already been formatted as bold?","What should I do if the bold formatting is not being applied correctly to the text in the document?"],
+         "responses": ["In tool bar you could see a B symbol choose the arrow next to the symbol. When you hover on it you could see the bold text, Select the tool to apply the options"],
+         "context": [""]
+        },
+        {"tag": "italic",
+         "patterns": ["How to apply italics?", "What is the process for applying italics to text in the document?","Can you explain how to make text italicized using the formatting tools?","What are the steps for applying italics to a portion of text in the document?","Could you demonstrate how to apply italics to text in the document?","Is there a keyboard shortcut or menu option for making text italicized in the document?","What is the difference between italics and other font styles like bold or underline?","Are there any limitations or restrictions when applying italics to text in the document?","How do I make sure I am applying italics to the correct portion of text in the document?","Can I remove italic formatting from text that has already been formatted as italicized?","What should I do if the italic formatting is not being applied correctly to the text in the document?"],
+         "responses": ["In tool bar you could see a B symbol choose the arrow next to the symbol. When you hover on it you could see the italic text, Select the tool to apply the options"],
+         "context": [""]
+        },  
+        {"tag": "underline",
+         "patterns": ["How to apply underline?", "What is the process for applying underline to text in the document?","Can you explain how to make text underlined using the formatting tools?","What are the steps for applying underline to a portion of text in the document?","Could you demonstrate how to apply underline to text in the document?","Is there a keyboard shortcut or menu option for making text underlined in the document?","What is the difference between underline and other font styles like bold or italics?","Are there any limitations or restrictions when applying underline to text in the document?","How do I make sure I am applying underline to the correct portion of text in the document?","Can I remove underline formatting from text that has already been formatted as underlined?","What should I do if the underline formatting is not being applied correctly to the text in the document?"],
+         "responses": ["In tool bar you could see a B symbol choose the arrow next to the symbol. When you hover on it you could see the underline text, Select the tool to apply the options"],
+         "context": [""]
+        }, 
+        {"tag": "subscript",
+         "patterns": ["How to apply subscript?", "What is the process for applying subscript to text in the document?","Can you explain how to make text subscript using the formatting tools?","What are the steps for applying subscript to a portion of text in the document?","Could you demonstrate how to apply subscript to text in the document?","Is there a keyboard shortcut or menu option for making text subscript in the document?","What is the difference between subscript and other font styles like superscript or regular text?","Are there any limitations or restrictions when applying subscript to text in the document?","How do I make sure I am applying subscript to the correct portion of text in the document?","Can I remove subscript formatting from text that has already been formatted as subscripted?","What should I do if the subscript formatting is not being applied correctly to the text in the document?"],
+         "responses": ["In tool bar you could see a B symbol choose the arrow next to the symbol. When you hover on it you could see the subscript text, Select the tool to apply the options"],
+         "context": [""]
+        },    
+        {"tag": "superscript",
+         "patterns": ["How to apply superscript?", "What is the process for applying superscript to text in the document?","Can you explain how to make text superscript using the formatting tools?","What are the steps for applying superscript to a portion of text in the document?","Could you demonstrate how to apply superscript to text in the document?","Is there a keyboard shortcut or menu option for making text superscript in the document?","What is the difference between superscript and other font styles like subscript or regular text?","Are there any limitations or restrictions when applying superscript to text in the document?","How do I make sure I am applying superscript to the correct portion of text in the document?","Can I remove superscript formatting from text that has already been formatted as superscripted?","What should I do if the superscript formatting is not being applied correctly to the text in the document?"],
+         "responses": ["In tool bar you could see a B symbol choose the arrow next to the symbol. When you hover on it you could see the superscript text, Select the tool to apply the options"],
+         "context": [""]
+        },
+        {"tag": "text color",
+         "patterns": ["How to apply text color?","What is the process for applying text color?","Can you explain how to change the color of text?","What are the steps to apply a different text color?","How can I modify the color of my text?","What is the method for altering text color?","Can you demonstrate how to set the color of text?","How do I change the text color of a document?","What are the options for adjusting text color?","What is the procedure for applying a custom text color?","Can you show me how to format text with a different color?" ],
+         "responses": ["In tool bar near bold symbol you could see a color formats Click the drop-down arrow next to Font color button and when you hover on it you could see the text saying text color click to apply text color", "In tool bar near bold symbol you could see a color formats Click the drop-down arrow next to Font color button and when you hover on it you could see the text saying background color click to apply background color", "In tool bar near bold symbol you could see a color formats Click the drop-down arrow next to Font color button and when you hover on it you could see the text saying change case click to apply sentence case, title case, lowercase, uppercase, small caps" ],
+         "context": [""]
+        },
+        {"tag": "background color",
+        "patterns": ["How to apply background color?","What is the process for setting a background color?","Can you explain how to change the background color of a section or text?","What steps do I need to follow to apply a custom background color?","How do I modify the background color of a document?","What are the options for adjusting the background color?","Can you demonstrate how to set a background color in my software application?","How can I apply a gradient or patterned background to a section or text?","How do I remove the background color from a selected section or text?","What is the shortcut to apply a background color quickly?","Is it possible to apply a transparent background color to my document, and how can I do that?" ],
+        "responses": ["In tool bar near bold symbol you could see a color formats Click the drop-down arrow next to Font color button and when you hover on it you could see the text saying background color click to apply background color" ],
+        "context": [""]
+        },
+        {"tag": "change case",
+        "patterns": ["How to change case?","Can you explain how to modify the case of text in a document?","What is the process for changing the capitalization of selected text?","How can I switch the text case from lowercase to uppercase and vice versa?","What are the steps for applying title case to a text selection?","How do I format the first letter of each word to be capitalized?","Can you demonstrate how to change the text case in my software application?","What is the keyboard shortcut for converting text to uppercase or lowercase?","How do I toggle the case of each character in the selected text?","Is there a way to change the text case for an entire document at once?" ],
+        "responses": ["In tool bar near bold symbol you could see a color formats Click the drop-down arrow next to Font color button and when you hover on it you could see the text saying change case click to apply sentence case, title case, lowercase, uppercase, small caps" ],
+        "context": [""]
+       },
+        {"tag": "Bullet list",
+         "patterns": ["How to add bullet list?","What are the steps to create a bullet list in my document?","How can I add bullet points to my text in a structured manner?","What is the process for inserting a bulleted list in my software application?","How do I customize the bullet points in my list?","Can you show me how to create a nested bullet list?","What is the shortcut for adding a bullet list quickly?","How do I adjust the spacing and indentation of my bullet list?","Is it possible to convert an existing text into a bullet list?","How do I remove or delete a bullet point from my list?" ],
+         "responses": ["In tool bar next to color formats you could see bullet list when you hover, Click the drop-down arrow to see different types of bullet list" ],
+         "context": [""]
+        },
+        {"tag": "Number list",
+         "patterns": ["How to add number list?","What are the steps for creating a numbered list in my document?","How can I add numbers to my text to create a structured list?","What is the process for inserting a numbered list in my software application?","How do I customize the number format and style in my list?","Can you demonstrate how to create a nested numbered list?","What is the shortcut for adding a numbered list quickly?","How do I adjust the spacing and indentation of my numbered list?","Is it possible to convert an existing text into a numbered list?","How do I remove or delete a number from my numbered list?" ],
+         "responses": ["In tool bar next to bullet list you could see number list when you hover, Click the drop-down arrow to see different types of number list" ],
+         "context": [""]
+        },
+        {"tag": "Increase Indent",
+         "patterns": ["How to Increase indent?","What is the process for increasing the indentation of a paragraph or section?","How do I move text further to the right to create an indented effect?","What are the steps for adjusting the indentation of a specific line or paragraph?","Can you show me how to increase the indent of my text in my software application?","What is the shortcut for increasing the indent quickly?","How do I adjust the left and right margins of a paragraph or section?","Is it possible to create a hanging indent, and how do I do that?","How do I remove or decrease the indent of a paragraph or section?" ],
+         "responses": ["In tool bar next to number list you could see increase indent when you hover, Click to apply" ],
+         "context": [""]
+        },
+        {"tag": "Decrease Indent",
+         "patterns": ["How to Decrease indent?","What is the process for decreasing the indentation of a paragraph or section?","How do I move text back to the left to remove an indented effect?","What are the steps for adjusting the indentation of a specific line or paragraph?","Can you show me how to decrease the indent of my text in my software application?","What is the shortcut for decreasing the indent quickly?","How do I adjust the left and right margins of a paragraph or section?","Is it possible to remove a hanging indent, and how do I do that?","How do I increase or decrease the indent of a paragraph or section by a specific amount?" ],
+         "responses": ["In tool bar next to increase indent you could see Decrease indent when you hover, Click to apply" ],
+         "context": [""]
+        },
+        {"tag": "Spell check",
+         "patterns": ["How to do spell check?","What is the process for running a spell check in my document?","How do I ensure that my document is free of spelling errors?","What are the steps for using the spell check feature in my software application?","Can you show me how to customize the settings for my spell check?","How do I add new words to my dictionary or remove misspelled words?","What is the shortcut for running a spell check quickly?","How do I navigate to the next spelling error in my document?","Is it possible to check the spelling of specific sections or paragraphs only?" ],
+         "responses": ["In tool bar next to decrease indent you could see spell check icon, when you hover you could see the text spell check, Click to spell check the article " ],
+         "context": [""]
+        },
+        {"tag": "Insert special character",
+         "patterns": ["How to insert special character?","What is the process for inserting a special character in my document?","How do I add symbols or glyphs that are not available on my keyboard?","What are the steps for using the special character feature in my software application?","Can you show me how to customize the list of special characters available in my document?","How do I insert special characters with a keyboard shortcut?","How do I search for a specific special character in the list?","Is it possible to add my own custom special characters to the list?","How do I adjust the size or font of the special character in my document?" ],
+         "responses": ["In tool bar you could see omega symbol, when you hover you could see the text insert special character, Click and select the required symbol to be inserted and give insert " ],
+         "context": [""]
+        },
+        {"tag": "Hide track changes",
+         "patterns": ["How to hide track changes?","What is the process for hiding track changes in my document?","How do I remove the visible marks for tracked changes in my document?","What are the steps for turning off track changes in my software application?","Can you show me how to customize the settings for track changes?","How do I hide the identity of the user who made the changes in the document?","What is the shortcut for hiding track changes quickly?","Is it possible to hide specific types of changes, such as comments or formatting changes?" ],
+         "responses": ["In tool bar you could see an eye symbol next to the symbol omega, when you hover you could see the text hide/show track changes, Click to hide or show track changes " ],
+         "context": [""]
+        },
+		{"tag": "Show track changes",
+         "patterns": ["How to add show track changes","What is the process for showing track changes in my document?","How do I make the changes made by collaborators visible in the document?","What are the steps for turning on track changes in my software application?","Can you show me how to customize the settings for track changes?","How do I show the identity of the user who made the changes in the document?","What is the shortcut for showing track changes quickly?","Is it possible to show specific types of changes, such as comments or formatting changes?" ],
+         "responses": ["In tool bar you could see an eye symbol next to the symbol omega, when you hover you could see the text hide/show track changes, Click to hide or show track changes " ],
+         "context": [""]
+        },
+        {"tag": "Move up",
+         "patterns": ["How to move the text up?","What is the process for moving text up in my document?","How do I adjust the placement of a section or paragraph to appear higher on the page?","What are the steps for moving text up in my software application?","Can you show me how to move text up using the keyboard or mouse?","How do I ensure that the text I'm moving up doesn't overlap with other content in the document?","What is the shortcut for moving text up quickly?","Is it possible to move multiple sections or paragraphs up at once?","How do I adjust the spacing between sections or paragraphs after moving them up?","What are some best practices for adjusting the placement of text in a document?" ],
+         "responses": ["Select the text to be moved, In menu bar click edit and from drop down select move up option" ],
+         "context": [""]
+        },
+        {"tag": "Move Down",
+         "patterns": ["How to move the text down?","What is the process for moving text down in my document?","How do I adjust the placement of a section or paragraph to appear lower on the page?","What are the steps for moving text down in my software application?","Can you show me how to move text down using the keyboard or mouse?","How do I ensure that the text I'm moving down doesn't overlap with other content in the document?","What is the shortcut for moving text down quickly?","Is it possible to move multiple sections or paragraphs down at once?","How do I undo or redo text movements that I've made in the document?" ],
+         "responses": ["Select the text to be moved down, In menu bar click edit and from drop down select move down option" ],
+         "context": [""]
+        },
+        {"tag": "Merge with previous",
+         "patterns": ["How to merge the text with previous paragraph?","What is the process for merging text with the previous paragraph in my document?","How do I combine two paragraphs into one by merging the text with the previous paragraph?","What are the steps for merging text with the previous paragraph in my software application?","Can you show me how to merge text with the previous paragraph using the keyboard or mouse?","How do I ensure that the formatting and spacing of the merged text is consistent with the previous paragraph?","What is the shortcut for merging text with the previous paragraph quickly?","Is it possible to undo the text merge if I change my mind later?","How do I merge multiple paragraphs with the previous one at once?","What are some best practices for merging text with the previous paragraph in a document?","How do I adjust the formatting and spacing of the merged text to match the surrounding paragraphs?" ],
+         "responses": ["Select the text to be merged, In menu bar click edit and from drop down select merge with previous option" ],
+         "context": [""]
+        },
+        {"tag": "Merge with next",
+         "patterns": ["How to merge the text with next paragraph?","What is the process for merging text with the next paragraph in my document?","How do I combine two paragraphs into one by merging the text with the next paragraph?","What are the steps for merging text with the next paragraph in my software application?","Can you show me how to merge text with the next paragraph using the keyboard or mouse?","How do I ensure that the formatting and spacing of the merged text is consistent with the next paragraph?","What is the shortcut for merging text with the next paragraph quickly?","Is it possible to undo the text merge if I change my mind later?","How do I merge multiple paragraphs with the next one at once?","What are some best practices for merging text with the next paragraph in a document?","How do I adjust the formatting and spacing of the merged text to match the surrounding paragraphs?" ],
+         "responses": ["Select the text to be merged with next para, In menu bar click edit and from drop down select merge with next option" ],
+         "context": [""]
+        },
+        {"tag": "Place float",
+         "patterns": ["How to give placement for float?","What is the process for giving placement for a float in my document?","How do I adjust the placement of a floating object to a specific location on the page?","What are the steps for giving placement to a float in my software application?","Can you show me how to give placement to a float using the keyboard or mouse?","How do I ensure that the floating object I'm placing doesn't overlap with other content in the document?","What is the shortcut for giving placement to a float quickly?","Is it possible to move a float to another location after placing it?","How do I adjust the spacing between the float and other content on the page?","How do I undo or redo float placements that I've made in the document?" ],
+         "responses": ["In menu bar click edit and from drop down select place float and give placement for float and then click save" ],
+         "context": [""]
+        },
+		{"tag": "Place inline",
+         "patterns": ["How to apply inline option for a float?","What is the process for applying an inline option for a float in my document?","How do I change the placement of a floating object so that it appears inline with the text?","What are the steps for applying an inline option for a float in my software application?","Can you show me how to apply an inline option for a float using the keyboard or mouse?","What is the shortcut for applying an inline option for a float quickly?","How do I undo or redo inline options for floats that I've made in the document?" ],
+         "responses": ["In menu bar click edit and from drop down select place float and enable inline option for required figure/table/box" ],
+         "context": [""]
+        },
+        {"tag": "Upload Offline PDF",
+         "patterns": ["How to upload offline pdf?","What is the process for uploading an offline PDF?","What are the steps for uploading an offline PDF document to the platform or website?","Can you show me how to upload an offline PDF file using a specific software application or tool?" ],
+         "responses": ["In menu bar click edit and from drop down select Upload offline pdf, select the file to be attached" ],
+         "context": [""]
+        }
+   ]
+}
